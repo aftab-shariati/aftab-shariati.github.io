@@ -1,0 +1,171 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  text-transform: capitalize;
+}
+
+.main-img{
+    height: 655px;
+    background-image: url(../images/woman-sitting-mountain-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navi{
+  list-style-type: none;
+  font-weight: 700;
+}
+
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800px; 
+}
+
+.menu-pos{
+  width: 100%;
+  height: 70px;
+}
+
+.hello-style{
+  width: 100%;
+  height: 230px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 350px;
+    font-weight: 800px; 
+    text-align: center;
+}
+
+.descript-style{
+  width: 100%;
+  height: 70px;
+    font-family: 'Montserrat regular', sans-serif;
+    text-transform: capitalize;
+    line-height: 70px;
+    font-weight: 200px; 
+    text-align: center;
+}
+
+.social-main {
+  width: 100%;
+  height: 100px;
+  }
+  
+  .social-main-in {
+    list-style-type: none;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    top:55px;
+  }
+  
+  
+  .social-main-link{
+    width: 30px;
+    height: 30px;
+    text-decoration:none;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .img-holder img{
+    width: 100%;
+    height: auto;
+  }
+  .about{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+  }
+
+  .titr{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .myskill-item {
+    width: 100%;
+    height: 25px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+  }
+
+.buton-color1 {
+  background-color: #1c1c1c;
+  color: #eee;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.buton-color2 {
+  background-color: transparent;
+  color: #1c1c1c;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.buton-color2:hover {
+  background-color: #1c1c1c;
+  color: #eee;
+}
+
+.buton-color1:hover {
+  background-color: transparent;
+  color: #1c1c1c;
+}
+
+.services-title h3{
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+.services-item{
+  text-align: center;
+}
+
+.services-item h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+}
+
+.services-item p{
+  font-weight: 600;
+
+}  
+
+
+.services-icon{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #f4f4f4;
+  transition: all .5s;
+}
+
+.services-icon:hover{
+  background: #1c1c1c;
+  color: #eee;
+}
+
+.portfo-sec{
+  background-color: #ffffff;
+  z-index: 0;
+  transition: all .5s;
+}
+.portfo-sec img{
+  z-index: 1;
+  transition: all .5s;
+}
+.portfo-sec img:hover .portfo-sec{
+  z-index: 2;
+}
+
+

@@ -19,9 +19,12 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Poppins:wght@300;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark position-fixed fixed-top">
         <div class="container-fluid">
@@ -31,25 +34,25 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navi" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100 fw-bold">
                     <li class="nav-item me-md-4" id="nav-li">
-                        <a class="nav-link nav-under" href="#">Home</a>
+                        <a class="nav-link nav-under" href="#home">Home</a>
                     </li>
                     <li class="nav-item me-md-4">
-                        <a class="nav-link nav-under" href="#part2">About</a>
+                        <a class="nav-link nav-under" href="#about">About</a>
                     </li>
                     <li class="nav-item me-md-4">
-                        <a class="nav-link nav-under" href="#part3">Services</a>
+                        <a class="nav-link nav-under" href="#services">Services</a>
                     </li>
                     <li class="nav-item me-md-4">
-                        <a class="nav-link nav-under" href="#part4">Works</a>
+                        <a class="nav-link nav-under" href="#works">Works</a>
                     </li>
                     <li class="nav-item me-md-4">
-                        <a class="nav-link nav-under" href="#part5">Blog</a>
+                        <a class="nav-link nav-under" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item me-md-4">
-                        <a class="nav-link nav-under" href="#part6">Contact</a>
+                        <a class="nav-link nav-under" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -57,24 +60,25 @@
     </nav>
 
     <div class="container-fluid px-0 main-img mb-5">
-        <div class="container-fluid px-0 overflow-hidden main-img-fade">
-            <div class="container position-relative" style=" top:80px;">
+        <div class="container-fluid px-0 overflow-hidden main-img-fade" id="home">
+            <div class="container position-relative">
 
-                <div class="row w-100 position-relative g-0 bottom-fix" style="top:180px;">
-                    <div class="col px-0 hello-style">
-                        <span class="text-white display-5">Hello</span>
+                <div class="row w-100 position-relative g-0" style="top:180px;">
+                    <div class="col-12 px-0 hello-style">
+                        <h5 class="text-white d-inline">Hello</h5>
                     </div>
                 </div>
-                <div class="row w-100 position-relative descript-style g-0">
-                    <div class="col-12 px-0 text-center h-100 d-flex justify-content-center flex-wrap "><span
-                            class="text-white display-4 fw-lighter">i
+                <div class="row w-100 position-relative g-0" style=" top:180px;">
+                    <div class="col-12 px-0 text-center h-100 d-flex justify-content-center flex-wrap descript-style">
+                        <span class="text-white">i
                             am&nbsp;</span>
-                        <h1 class="text-white display-4 fw-bold typewriter1 my-0 d-sm-block">
-                            <span>developer</span>
-                            <!-- <span class="bg-secondary">disigner</span>
+                        <h1 class="text-white typewriter1 my-0 d-block" id="des-height">
+                            developer
+                        </h1>
+                        <!-- <span class="bg-secondary">disigner</span>
                         <span class="bg-success">Aftab shariati</span> -->
 
-                        </h1>
+
                     </div>
                 </div>
 
@@ -83,24 +87,24 @@
                         <ul
                             class="d-flex flex-row flex-nowrap px-0 justify-content-center position-relative social-main-in">
 
-                            <li class="me-3">
+                            <li class="mx-1">
 
                                 <a class="d-block border border-0 rounded-circle fs-6 link-light  social-main-link"
                                     href=https://www.facebook.com title=Facebook target=_blank><span
                                         class="fa fa-facebook"></span></a>
                             </li>
 
-                            <li class="me-3"><a
+                            <li class="mx-1"><a
                                     class="d-block border border-0 rounded-circle fs-6 link-light social-main-link"
                                     href=https://twitter.com title=Twitter target=_blank><span
                                         class="fa fa-twitter"></span></a></li>
-                            <li class="me-3"><a
+                            <li class="mx-1"><a
                                     class="d-block  border border-0 rounded-circle fs-6 link-light social-main-link"
                                     href=https://instagram.com title=Instagram target=_blank><span
                                         class="fa fa-instagram"></span></a></li>
 
 
-                            <li class="me-3"><a
+                            <li class="mx-1"><a
                                     class="d-block border border-0 rounded-circle fs-6 link-light social-main-link"
                                     href=https://youtube.com title=Youtube target=_blank><span
                                         class="fa fa-youtube"></span></a></li>
@@ -111,7 +115,7 @@
             </div>
 
         </div>
-        <div class="container-fluid gap" id="part2"></div>
+        <div class="container-fluid gap" id="about"></div>
 
         <div class="container mt-5">
             <div class="row">
@@ -217,13 +221,13 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-light pb-5" id="part3">
+        <div class="container-fluid bg-light pb-5" id="services">
             <div class="container bg-light h-100">
                 <div class="services-title">
-                    <h3 class="h1 d-inline-block">Services.</h3>
+                    <h3 class="h1 d-inline-block py-4">Services.</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 my-1 overflow-hidden services-height">
+                    <div class="col-lg-4 mb-1 services-height">
                         <div
                             class="px-4 py-5 h-100 w-100 border-0 border-light rounded-3 shadow shadow-lg bg-white services-item">
                             <span class="fs-3 d-inline-block border border-0 rounded-circle services-icon"><i
@@ -234,7 +238,7 @@
                                 consumers have with your business.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-1 overflow-hidden services-height">
+                    <div class="col-lg-4 mb-1 services-height">
                         <div
                             class="px-4 py-5 h-100 w-100 border-0 border-light rounded-3 shadow shadow-lg bg-white services-item">
                             <span class="fs-3 d-inline-block border border-0 rounded-circle services-icon"><i
@@ -245,7 +249,7 @@
                                 of a company, throughout all marketing.</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-1 overflow-hidden services-height">
+                    <div class="col-lg-4 mb-1 services-height">
                         <div
                             class=" px-4 py-5 h-100 w-100border-0 border-light rounded-3 shadow shadow-lg bg-white services-item">
                             <span class="fs-3 d-inline-block border border-0 rounded-circle services-icon"><i
@@ -257,7 +261,7 @@
                     </div>
                 </div>
                 <div class="row mt-lg-4">
-                    <div class="col-lg-4 my-1 overflow-hidden services-height">
+                    <div class="col-lg-4 mb-1 services-height">
                         <div
                             class="px-4 py-5 h-100 w-100 border-0 border-light rounded-3 shadow shadow-lg bg-white services-item">
                             <span class="fs-3 d-inline-block border border-0 rounded-circle services-icon"><i
@@ -267,7 +271,7 @@
                                 animation created to visualize a potential product. </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-1 overflow-hidden services-height">
+                    <div class="col-lg-4 mb-1 services-height">
                         <div
                             class="px-4 py-5 h-100 w-100 border-0 border-light rounded-3 shadow shadow-lg bg-white services-item">
                             <span class="fs-3 d-inline-block border border-0 rounded-circle services-icon"><i
@@ -277,7 +281,7 @@
                                 user experience and look and feel across all devices</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 my-1 overflow-hidden services-height">
+                    <div class="col-lg-4 mb-1 services-height">
                         <div
                             class="px-4 py-5 h-100 w-100 border-0 border-light rounded-3 shadow shadow-lg bg-white services-item">
                             <span class="fs-3 d-inline-block border border-0 rounded-circle services-icon"><i
@@ -291,35 +295,37 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid pb-5" id="part4">
+        <div class="container-fluid pb-5" id="works">
             <div class="container">
                 <div class="services-title">
-                    <h3 class="h1 d-inline-block">Portfolio.</h3>
-                </div>
-                <div>
-                    <ul class="d-flex flex-row flex-nowrap justify-content-center list-style">
-                        <li class="me-4"><a href="#part4" class="text-decoration-none fs-6 fw-bold portfo-under">All</a>
-                        </li>
-                        <li class="me-4"><a href="#part4"
-                                class="text-decoration-none fs-6 fw-bold portfo-under ">Brand</a>
-                        </li>
-                        <li class="me-4"><a href="#part4"
-                                class="text-decoration-none fs-6 fw-bold portfo-under">Design</a>
-                        </li>
-                        <li class="me-4"><a href="#part4"
-                                class="text-decoration-none fs-6 fw-bold portfo-under">Graphic</a>
-                        </li>
-                    </ul>
+                    <h3 class="h1 d-inline-block py-4">Portfolio.</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-12 mb-2">
+                        <ul class="d-flex flex-row flex-wrap justify-content-center list-style">
+                            <li class="me-4"><a href="#part4"
+                                    class="text-decoration-none fs-6 fw-bold portfo-under">All</a>
+                            </li>
+                            <li class="me-4"><a href="#part4"
+                                    class="text-decoration-none fs-6 fw-bold portfo-under ">Brand</a>
+                            </li>
+                            <li class="me-4"><a href="#part4"
+                                    class="text-decoration-none fs-6 fw-bold portfo-under">Design</a>
+                            </li>
+                            <li class="me-4"><a href="#part4"
+                                    class="text-decoration-none fs-6 fw-bold portfo-under">Graphic</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-3 ">
                         <div class="position-relative mb-2 Portfolio">
                             <a class="text-decoration-none text-dark" href="#">
                                 <img class="w-100 h-100 img-fluid px-0  position-absolute" src="images/1.jpg">
                                 <div class="position-absolute Portfolio-cover">
                                     <div class="w-100 h-100 d-flex flex-column justify-content-center">
-                                        <h6
-                                            class="d-inline-block w-100 text-center fs-6 fw-lighter montserrat-font portfolio-text">
+                                        <h6 class="d-inline-block w-100 text-center portfolio-text">
                                             WEB
                                             DESIGN</h6>
                                         <div class="w-100 text-center portfo-item">
@@ -331,7 +337,7 @@
 
 
 
-                                            <a class="d-inline-block border border-1 border-dark rounded-circle fs-6 link-light  social-main-link"
+                                            <a class="d-inline-block border border-1 border-dark rounded-circle fs-6 link-light social-main-link"
                                                 href="images/1.jpg">
                                                 <i class="fa fa-search-plus" aria-hidden="true"></i>
                                             </a>
@@ -342,14 +348,13 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-3 ">
                         <div class="position-relative mb-2 Portfolio">
                             <a class="text-decoration-none text-dark" href="#">
                                 <img class="w-100 h-100 img-fluid px-0  position-absolute" src="images/2.jpg">
                                 <div class="position-absolute Portfolio-cover">
                                     <div class="w-100 h-100 d-flex flex-column justify-content-center">
-                                        <h6
-                                            class="d-inline-block w-100 text-center fs-6 fw-lighter montserrat-font portfolio-text">
+                                        <h6 class="d-inline-block w-100 text-center portfolio-text">
                                             WEB
                                             DESIGN</h6>
                                         <div class="w-100 text-center portfo-item">
@@ -372,14 +377,13 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-3 ">
                         <div class="position-relative mb-2 Portfolio">
                             <a class="text-decoration-none text-dark" href="#">
                                 <img class="w-100 h-100 img-fluid px-0  position-absolute" src="images/3.jpg">
                                 <div class="position-absolute Portfolio-cover">
                                     <div class="w-100 h-100 d-flex flex-column justify-content-center">
-                                        <h6
-                                            class="d-inline-block w-100 text-center fs-6 fw-lighter montserrat-font portfolio-text">
+                                        <h6 class="d-inline-block w-100 text-center portfolio-text">
                                             WEB
                                             DESIGN</h6>
                                         <div class="w-100 text-center portfo-item">
@@ -402,14 +406,14 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-3 ">
                         <div class="position-relative mb-2 Portfolio">
                             <a class="text-decoration-none text-dark" href="#">
                                 <img class="w-100 h-100 img-fluid px-0  position-absolute" src="images/4.jpg">
+
                                 <div class="position-absolute Portfolio-cover">
                                     <div class="w-100 h-100 d-flex flex-column justify-content-center">
-                                        <h6
-                                            class="d-inline-block w-100 text-center fs-6 fw-lighter montserrat-font portfolio-text">
+                                        <h6 class="d-inline-block w-100 text-center portfolio-text">
                                             WEB
                                             DESIGN</h6>
                                         <div class="w-100 text-center portfo-item">
@@ -432,14 +436,13 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-3 ">
                         <div class="position-relative mb-2 Portfolio">
                             <a class="text-decoration-none text-dark" href="#">
                                 <img class="w-100 h-100 img-fluid px-0  position-absolute" src="images/5.jpg">
                                 <div class="position-absolute Portfolio-cover">
                                     <div class="w-100 h-100 d-flex flex-column justify-content-center">
-                                        <h6
-                                            class="d-inline-block w-100 text-center fs-6 fw-lighter montserrat-font portfolio-text">
+                                        <h6 class="d-inline-block w-100 text-center portfolio-text">
                                             WEB
                                             DESIGN</h6>
                                         <div class="w-100 text-center portfo-item">
@@ -462,14 +465,13 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 ">
+                    <div class="col-lg-4 col-md-6 mb-3 ">
                         <div class="position-relative mb-2 Portfolio">
                             <a class="text-decoration-none text-dark" href="#">
                                 <img class="w-100 h-100 img-fluid px-0  position-absolute" src="images/6.jpg">
                                 <div class="position-absolute Portfolio-cover">
-                                    <div class="w-100 h-100 d-flex flex-column justify-content-center">
-                                        <h6
-                                            class="d-inline-block w-100 text-center fs-6 fw-lighter montserrat-font portfolio-text">
+                                    <div class="w-100 h-100 d-flex flex-column justify-content-center portfolio-1">
+                                        <h6 class="d-inline-block w-100 text-center portfolio-text">
                                             WEB
                                             DESIGN</h6>
                                         <div class="w-100 text-center portfo-item">
@@ -496,16 +498,16 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-light pb-5" id="part5">
+        <div class="container-fluid bg-light pb-5" id="blog">
             <div class="container bg-light h-100">
                 <div class="services-title">
-                    <h3 class="h1 d-inline-block">Our Blog.</h3>
+                    <h3 class="h1 d-inline-block py-4">Our Blog.</h3>
                 </div>
                 <div class="row mb-md-5">
                     <div class="col-lg-4 my-4 my-lg-0">
                         <div class="d-flex flex-column bg-white">
                             <div class="overflow-hidden blog-h"><img class=" w-100 img-fluid" src="images/b2.jpg"></div>
-                            <div class="px-3 py-3">
+                            <div class="px-3 py-3 blog-text">
                                 <h6>
                                     <a class="text-decoration-none text-secondary fw-bold" href="#">WordPress</a>
                                 </h6>
@@ -522,7 +524,7 @@
                     <div class="col-lg-4 my-4 my-lg-0">
                         <div class="d-flex flex-column bg-white overflow-hidden">
                             <div class="overflow-hidden blog-h"><img class=" w-100 img-fluid" src="images/b1.jpg"></div>
-                            <div class="px-3 py-3">
+                            <div class="px-3 py-3 blog-text">
                                 <h6>
                                     <a class="text-decoration-none text-secondary fw-bold" href="#">Trends</a>
                                 </h6>
@@ -539,7 +541,7 @@
                     <div class="col-lg-4 my-4 my-lg-0">
                         <div class="d-flex flex-column bg-white overflow-hidden">
                             <div class="overflow-hidden blog-h"><img class=" w-100 img-fluid" src="images/b3.jpg"></div>
-                            <div class="px-3 py-3">
+                            <div class="px-3 py-3 blog-text">
                                 <h6>
                                     <a class="text-decoration-none text-secondary fw-bold" href="#">Themeforest</a>
                                 </h6>
@@ -560,7 +562,7 @@
             </div>
         </div>
 
-        <div class="container-fluid" id="part6">
+        <div class="container-fluid" id="contact">
             <div class="container">
                 <div class="row my-5">
                     <div class="col-12 h1 fw-bolder text-center mt-5 position-relative contact">

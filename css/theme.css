@@ -2993,6 +2993,7 @@ margin-left: 10px;
 }
 }
 
+
 @media all and (min-width:1400px){
     .navigation{
         display: flex;
@@ -3549,7 +3550,6 @@ margin-left: 10px;
     font-weight: 400;
 }
 }
-
 
 
 .content{

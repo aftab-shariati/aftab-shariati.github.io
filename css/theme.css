@@ -3015,12 +3015,13 @@ margin-left: 10px;
     }
     
     .center-side{
-        width: 40%;
+        width: 80%;
         height: 80px;
+      
        
     }
     
-    .center-side-1-ul{
+    .center-side-ul{
         height: 80px;
         display: flex;
         justify-content: flex-start;
@@ -3029,12 +3030,12 @@ margin-left: 10px;
         margin-left: 15px;
     }
     
-    .center-side-1-ul>li{
+    .center-side-ul>li{
         width: max-content;
         margin-right: 5px;
     }
 
-    .center-side-2{
+    /* .center-side-2{
         width: 20%;
         height: 80px;
        
@@ -3052,7 +3053,7 @@ margin-left: 10px;
     .center-side-2-ul>li{
         width: max-content;
         margin-right: 5px;
-    }
+    } */
     
     .menu-bar{
         display: block;
@@ -3085,8 +3086,8 @@ margin-left: 10px;
         display: none;
     }
 
-    .break-in{
-        width: 20%;
+    .break-in-1{
+        width:15vw;
         height: 80px;
     
     }
@@ -3228,6 +3229,7 @@ margin-left: 10px;
 
 .height-auto{
 height: 100vh;
+transition: all 400ms ease 0s;
 }
 
 
@@ -3280,6 +3282,7 @@ visibility: hidden;
 .display-none-lg{
     display: none!important;
     }
+
 
 .image-loader{
 visibility: visible;
@@ -3347,6 +3350,11 @@ font-weight: normal;
 color: rgb(0, 0, 0);
 transition: all 200ms linear 0s;
 display: inline-block;       
+}
+
+.menu-bar-2:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 .menu-bar-height-l{
@@ -3429,6 +3437,9 @@ width: 48px;
 .sub-menu-inshot-text>a{
 display: block;
 padding: 15px;
+font-weight: 400;
+    font-size: 1vw;
+    cursor: pointer;
 }
 
 .sub-menu-inshot-text:hover{

@@ -1548,18 +1548,24 @@ transition: all 300ms ease-in-out 0s;
     .chevron-down-3,
     .chevron-down-4,
     .chevron-down-5{
+      display: flex;
+      justify-content: center;
+      align-items: center;
        width: 10%;
       height: 120px;
       line-height: 120px;
       text-align: center;
       font-size: 7vw;
-      padding-right: 30px;
-      transition: all 100ms ease-in-out 0s;
+      /* padding-right: 30px; */
+      transition: all 10ms ease-in-out 0s;
+     
+      cursor: pointer;
+      margin-right: 10px;
     
     }
 
     .chevron-down-rotate{
-      transform: rotateZ(180deg) translateX(50%);
+      transform: rotateZ(180deg);
       
       
     }

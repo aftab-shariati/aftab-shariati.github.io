@@ -706,6 +706,7 @@ $(document).ready(function () {
         $(".center-side").toggleClass("custom-width");
         $(".center-side-ul").toggleClass("custom-width");
         $(".fade-In").addClass("fade-In-block");
+        $(".hole-page").addClass("hole-page-height");
 
     });
     $(".compact-icon11").click(function () {
@@ -875,6 +876,7 @@ $(document).ready(function () {
     $(".menu-icon-x").click(function () {
         $(".center-side").removeClass("custom-width");
         $(".fade-In").removeClass("fade-In-block");
+        $(".hole-page").removeClass("hole-page-height");
     });
 
     $(".menu-icon-arrow").click(function () {
@@ -889,6 +891,28 @@ $(document).ready(function () {
         $(".sub-back-7").removeClass("full-width");
         $(".sub-back-8").removeClass("full-width");
         $(".sub-back-9").removeClass("full-width");
+
+        $(".sub-menu-inshot-1").removeClass("height-auto");
+        $(".sub-menu-inshot-2").removeClass("height-auto");
+        $(".sub-menu-inshot-3").removeClass("height-auto");
+        $(".sub-menu-inshot-4").removeClass("height-auto");
+        $(".sub-menu-inshot-5").removeClass("height-auto");
+        $(".sub-menu-inshot-6").removeClass("height-auto");
+        $(".sub-menu-inshot-7").removeClass("height-auto");
+        $(".sub-menu-inshot-8").removeClass("height-auto");
+        $(".sub-menu-inshot-9").removeClass("height-auto");
+        $(".sub-menu-inshot-10").removeClass("height-auto");
+
+        $(".compact-icon1").removeClass("custom-rotate");
+        $(".compact-icon2").removeClass("custom-rotate");
+        $(".compact-icon3").removeClass("custom-rotate");
+        $(".compact-icon4").removeClass("custom-rotate");
+        $(".compact-icon5").removeClass("custom-rotate");
+        $(".compact-icon6").removeClass("custom-rotate");
+        $(".compact-icon7").removeClass("custom-rotate");
+        $(".compact-icon8").removeClass("custom-rotate");
+        $(".compact-icon9").removeClass("custom-rotate");
+        $(".compact-icon10").removeClass("custom-rotate");
 
         $(".compact-icon11").removeClass("not-visible");
         $(".compact-icon12").removeClass("not-visible");

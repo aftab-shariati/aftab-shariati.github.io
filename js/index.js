@@ -1786,12 +1786,12 @@ $(document).ready(function () {
 
     $(".down-up-1").click(function () {
         $(".down-up-1").toggleClass("up-down-1");
-        $(".down-up-text-1").toggleClass("height-100");
+        $(".down-up-text-1").slideToggle(300);
     });
 
     $(".down-up-2").click(function () {
         $(".down-up-2").toggleClass("up-down-2");
-        $(".down-up-text-2").toggleClass("height-200");
+        $(".down-up-text-2").slideToggle(300);
     });
 
     $(".portfo-under-1").click(function () {
@@ -1803,6 +1803,9 @@ $(document).ready(function () {
         $(".shop-effect-row-2").removeClass("shop-effect-row-active");
         $(".shop-effect-row-3").removeClass("shop-effect-row-active");
         $(".shop-effect-row-4").removeClass("shop-effect-row-active");
+        $(".shop-offers-total").addClass("shop-total-h-1");
+        $(".shop-offers-total").removeClass("shop-total-h-2");
+        $(".shop-offers-total").removeClass("shop-total-h-3");
     });
     $(".portfo-under-2").click(function () {
         $(".portfo-under-2").addClass("portfo-under-after");
@@ -1813,6 +1816,9 @@ $(document).ready(function () {
         $(".shop-effect-row-1").removeClass("shop-effect-row-active");
         $(".shop-effect-row-3").removeClass("shop-effect-row-active");
         $(".shop-effect-row-4").removeClass("shop-effect-row-active");
+        $(".shop-offers-total").addClass("shop-total-h-2");
+        $(".shop-offers-total").removeClass("shop-total-h-3");
+        $(".shop-offers-total").removeClass("shop-total-h-1");
     });
     $(".portfo-under-3").click(function () {
         $(".portfo-under-3").addClass("portfo-under-after");
@@ -1823,6 +1829,9 @@ $(document).ready(function () {
         $(".shop-effect-row-2").removeClass("shop-effect-row-active");
         $(".shop-effect-row-1").removeClass("shop-effect-row-active");
         $(".shop-effect-row-4").removeClass("shop-effect-row-active");
+        $(".shop-offers-total").addClass("shop-total-h-3");
+        $(".shop-offers-total").removeClass("shop-total-h-1");
+        $(".shop-offers-total").removeClass("shop-total-h-2");
     });
     $(".portfo-under-4").click(function () {
         $(".portfo-under-4").addClass("portfo-under-after");
@@ -1833,6 +1842,9 @@ $(document).ready(function () {
         $(".shop-effect-row-2").removeClass("shop-effect-row-active");
         $(".shop-effect-row-3").removeClass("shop-effect-row-active");
         $(".shop-effect-row-1").removeClass("shop-effect-row-active");
+        $(".shop-offers-total").addClass("shop-total-h-3");
+        $(".shop-offers-total").removeClass("shop-total-h-1");
+        $(".shop-offers-total").removeClass("shop-total-h-2");
     });
 
     $(".portfo-under-5").click(function () {
@@ -2041,6 +2053,7 @@ $(document).ready(function () {
         $(".pn-5").removeClass("pn-fill");
         $(".pn-6").removeClass("pn-fill");
         $(".slider-1").addClass("slide-img-show");
+        $(".slider-1").fadeIn(1000);
         $(".slider-2").removeClass("slide-img-show");
         $(".slider-3").removeClass("slide-img-show");
         $(".slider-4").removeClass("slide-img-show");
@@ -2064,6 +2077,7 @@ $(document).ready(function () {
         $(".pn-5").removeClass("pn-fill");
         $(".pn-6").removeClass("pn-fill");
         $(".slider-2").addClass("slide-img-show");
+        // $(".slide-img").fadeout(1000);
         $(".slider-1").removeClass("slide-img-show");
         $(".slider-3").removeClass("slide-img-show");
         $(".slider-4").removeClass("slide-img-show");

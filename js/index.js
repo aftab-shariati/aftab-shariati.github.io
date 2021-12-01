@@ -707,6 +707,7 @@ $(document).ready(function () {
         $(".center-side-ul").toggleClass("custom-width");
         $(".fade-In").addClass("fade-In-block");
         $(".hole-page").addClass("hole-page-height");
+        $(".left-side").addClass("logo-hide");
 
     });
     $(".compact-icon11").click(function () {
@@ -877,6 +878,7 @@ $(document).ready(function () {
         $(".center-side").removeClass("custom-width");
         $(".fade-In").removeClass("fade-In-block");
         $(".hole-page").removeClass("hole-page-height");
+        $(".left-side").removeClass("logo-hide");
     });
 
     $(".menu-icon-arrow").click(function () {
